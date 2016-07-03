@@ -1,0 +1,26 @@
+{
+  "name": "canvasdaybyday",
+  "version": "0.0.1",
+  "description": "this is a practice canvas project, i will commit it every day after 2016-07-02. Please supervise me. Learn together.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biluo62/CanvasDayByDay.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "hank.liu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biluo62/CanvasDayByDay/issues"
+  },
+  "homepage": "https://github.com/biluo62/CanvasDayByDay#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
