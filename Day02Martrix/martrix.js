@@ -33,21 +33,11 @@
       drops[i]++;
     }
 
-    // for (var i = 0; i < drops.length; i++){
-    //   var text = wordsArr[Math.floor(Math.random() * wordsArr.length)];
-    //   context.fillText(text, i * fontSize, drops[i] * fontSize);
-    //   if (drops[i] * fontSize > windowHeight && Math.random() > 0.98) {
-    //     drops[i] = 0;
-    //   }
-    //   drops[i]++;
-    // }
-
     context.restore();
   }
 
   (function drawFrame() {
     window.requestAnimationFrame(drawFrame);
-    // setTimeout(drawFrame, 500);
     context.fillStyle = clearColor;
     context.fillRect(0, 0, windowWidth, windowHeight);
 
