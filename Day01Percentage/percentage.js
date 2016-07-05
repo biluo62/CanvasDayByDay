@@ -25,16 +25,16 @@
       context.beginPath();
       context.strokeStyle = '#49f';
       context.lineWidth = 5;
-      context.arc(conterX, conterY, 100, -Math.PI, -Math.PI + n * rad, false);
+      context.arc(conterX, conterY, 100, -Math.PI / 2, -Math.PI / 2 + n * rad, false);
       context.stroke();
       context.closePath();
       context.restore();
     }
 
-    function drawWhiteCircle(n) {
+    function drawWhiteCircle() {
       context.save();
       context.beginPath();
-      context.strokeStyle = '#fff';
+      context.strokeStyle = 'white';
       context.arc(conterX, conterY, 100, 0, Math.PI * 2, false);
       context.stroke();
       context.closePath();
@@ -47,9 +47,9 @@
 
       context.clearRect(0, 0, canvas.width, canvas.height);
 
-      drawBlueCircle(spreed);
+      drawWhiteCircle();
       drawText(spreed);
-      drawWhiteCircle(spreed);
+      drawBlueCircle(spreed);
 
       spreed = spreed > 100 ? 0 : spreed + 0.1;
     }());

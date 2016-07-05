@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/biluo62/CanvasDayByDay#readme",
   "devDependencies": {
-    "http-server": "^0.9.0"
+    "http-server": "^0.9.0",
+    "requirejs": "^2.2.0"
   }
 }
